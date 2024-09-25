@@ -1,0 +1,60 @@
+:global *{
+    box-sizing: border-box;
+}
+.listWrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.app{
+    width: 100vw;
+}
+.list {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 47%;
+    width: 47%;
+    border: 2px solid rebeccapurple;
+    margin: 0 25px;
+}
+
+.todo {
+    display: block;
+    padding: 5px 10px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.todo:nth-child(even) {
+    background: lightgrey;
+}
+
+h2 {
+    margin: 10px 0;
+    background: gold;
+    text-align: center;
+
+}
+
+.headerWrap {
+    display: flex;
+    justify-content: stretch;
+
+}
+
+
+.formWrap,
+.addTodo {
+    margin: 25px;
+
+}
+
+.addTodo {
+    margin: 25px;
+    width: 200px;
+    height: 30px;
+}
+

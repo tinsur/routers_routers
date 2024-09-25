@@ -1,0 +1,16 @@
+:global *{
+    box-sizing: border-box;
+
+}
+
+
+.notFoundPage{
+    margin: 50px;
+   text-align: center;
+    font-size: 30px;
+}
+.goToMain{
+    color: blue;
+    font-size: 20px;
+
+}

@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.mainPicWrap{
+    text-align: center;
+}
+
+.mainPic{
+    width: 200px;
+    margin-bottom: 50px;
+
+}
+.linkTaskList{
+    display: block;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.listWrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 47%;
+    border: 2px solid rebeccapurple;
+    margin: 0 25px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+
+}
+
+.todo:nth-child(even) {
+    background: lightgrey;
+}
+
+h2 {
+    margin: 10px 0;
+    background: gold;
+    text-align: center;
+
+}
+
+.headerWrap {
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.selectUser {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+.selectNumber {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 60px;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+.formWrap,
+.addTodo {
+    margin: 25px;
+
+}
+
+.addTodo {
+    margin: 25px;
+    width: 200px;
+    height: 30px;
+}
+
